@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.contents {
+    position: relative;
+    width: 300px;
+    border: 1px solid #F9F9F9;
+    padding: 10px;
+    float: left;
+    margin-right: 30px;
+}
+
+.contents:last-child {
+    margin: 0;
+}
+
+.contents > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px;
+    background-color: #FF9A4B;
+    color: white;
+}
+
+.step1-image {
+    width: 280px;
+    height: 150px;
+    background-image: url(img/flow01.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.step2-image {
+    width: 280px;
+    height: 150px;
+    background-image: url(img/flow02.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.step3-image {
+    width: 280px;
+    height: 150px;
+    background-image: url(img/flow03.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.contents-title {
+    padding: 10px 0;
+    font-size: 20px;
+}
