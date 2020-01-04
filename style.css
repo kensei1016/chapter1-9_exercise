@@ -39,7 +39,6 @@ main {
 }
 
 .step1-image {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
@@ -47,7 +46,6 @@ main {
 }
 
 .step2-image {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
@@ -55,7 +53,6 @@ main {
 }
 
 .step3-image {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
@@ -65,4 +62,20 @@ main {
 .contents-title {
   padding: 10px 0;
   font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+  }
+
+  .contents {
+    width: 90%;
+    float: none;
+    margin: 0 auto 20px auto;
+  }
+
+  .contents:last-child {
+    margin: 0 auto 0 auto;
+  }
 }
